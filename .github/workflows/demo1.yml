@@ -1,17 +1,18 @@
+---
 name: Hello World
 on: workflow_dispatch
 jobs:
-  build: 
-   steps:
-     - name: print hello world
-       run: echo "This is build job"
-  test: 
-   runs-on: ubuntu-latest
-   steps:
-     - name: print hello world
-       run: echo "This is test job"
-  deploy: 
-   runs-on: ubuntu-latest
-   steps:
-     - name: print hello world
-       run: echo "This is deploy job"
+  build:
+    steps:
+      - name: print hello world
+        run: echo "This is build job"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello world
+        run: echo "This is test job"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello world
+        run: echo "This is deploy job"
