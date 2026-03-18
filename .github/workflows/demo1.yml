@@ -2,7 +2,7 @@ name: Hello World
 
 on: 
   push
-  pull_request:
+  pull_request
     branches:
       - main
 
